@@ -1,0 +1,25 @@
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    float: left;
+    font-size: 80px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.game-board {
+    width: 302px; /* 100*3 + 1*2 (borders) */
+    margin: 0 auto;
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blue {
+    color: blue;
+}
+
+.red {
+    color: red;
+}
